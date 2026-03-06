@@ -57,7 +57,8 @@ Red: 10, Green: 11, Blue: 20
 
 ## 4. 기반 타입 지정
 
-`SmallEnum`을 `byte` 기반으로 정의하고, `sizeof(SmallEnum)`으로 크기를 출력하세요.
+`SmallEnum`을 `byte` 기반으로 정의하고, 
+`sizeof(SmallEnum)`으로 크기를 출력하세요.
 
 **실행 결과**
 
@@ -98,7 +99,8 @@ White
 ## 6. Enum.Parse - 문자열을 열거형으로 변환
 
 문자열 `"Red"`를 `Enum.Parse`로 `ConsoleColor`로 변환하세요.
-`Console.ForegroundColor`에 설정하여 "빨간색 텍스트"를 출력한 후, `Console.ResetColor()`로 복원하고 "기본 색상 텍스트"를 출력하세요.
+`Console.ForegroundColor`에 설정하여 "빨간색 텍스트"를 출력한 후, 
+`Console.ResetColor()`로 복원하고 "기본 색상 텍스트"를 출력하세요.
 
 **실행 결과**
 
@@ -125,7 +127,9 @@ White
 
 ## 8. Enum.IsDefined - 값 유효성 검사
 
-`Enum.IsDefined`로 정수 1이 유효한 `Animal` 값인지, 100이 유효한 값인지, 문자열 "Tiger"가 유효한 값인지 각각 확인하여 출력하세요.
+`Enum.IsDefined`로 정수 1이 유효한 
+`Animal` 값인지, 100이 유효한 값인지, 
+문자열 "Tiger"가 유효한 값인지 각각 확인하여 출력하세요.
 
 **실행 결과**
 

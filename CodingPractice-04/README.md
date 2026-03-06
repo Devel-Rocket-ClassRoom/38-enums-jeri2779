@@ -42,7 +42,8 @@ Chicken은 "닭", Dog은 "개", Pig는 "돼지"로 출력합니다.
 
 ## 3. 아이템 등급
 
-아이템 이름과 `ItemRarity` 등급을 받아 출력하는 `PrintItemInfo` 로컬 함수를 만드세요.
+아이템 이름과 `ItemRarity` 등급을 받아 출력하는 
+`PrintItemInfo` 로컬 함수를 만드세요.
 "전설의 검"을 `Legendary` 등급으로 출력하세요.
 
 **실행 결과**

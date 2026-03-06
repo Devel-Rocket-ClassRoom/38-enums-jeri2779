@@ -9,7 +9,7 @@
 
 - `Animal` - Horse, Sheep = 5, Monkey
 - `[Flags] CharacterStatus` - None = 0, Poison = 1, Paralyzed = 1 << 1, Confused = 1 << 2, Invisible = 1 << 3
-- `[Flags] BuffStatus` - None = 0, AttackUp = 1, DefenseUp = 1 << 1, SpeedUp = 1 << 2, All = AttackUp | DefenseUp | SpeedUp
+- `[Flags] BuffStatus` - 
 
 ---
 
@@ -30,7 +30,9 @@
 
 ## 2. 플래그 결합하기
 
-`CharacterStatus.Poison`과 `CharacterStatus.Paralyzed`를 OR 연산자(`|`)로 결합하여 출력하세요.
+`CharacterStatus.Poison`과 
+`CharacterStatus.Paralyzed`를 OR 연산자(`|`)로 결합하여 
+출력하세요.
 
 **실행 결과**
 
@@ -55,7 +57,10 @@ Poison, Paralyzed
 
 ## 4. 플래그 추가 및 제거
 
-`CharacterStatus.Poison`으로 시작하여 혼란을 추가(`|=`), 독을 제거(`&= ~`), 투명을 토글(`^=`)하고 각 단계의 상태를 출력하세요.
+`CharacterStatus.Poison`으로 시작하여 
+혼란을 추가(`|=`), 
+독을 제거(`&= ~`), 
+투명을 토글(`^=`)하고 각 단계의 상태를 출력하세요.
 
 **실행 결과**
 
@@ -70,8 +75,10 @@ Poison, Paralyzed
 
 ## 5. 플래그 열거형 활용 예제
 
-`BuffStatus` 플래그 열거형을 사용하여 버프 시스템을 구현하세요.
-`ApplyBuff`, `RemoveBuff`, `HasBuff` 로컬 함수를 만들고, AttackUp과 SpeedUp을 적용한 후 확인하고, AttackUp을 해제한 후 다시 확인하세요.
+`BuffStatus` 플래그 열거형을 사용하여 
+버프 시스템을 구현하세요.
+`ApplyBuff`, `RemoveBuff`, `HasBuff` 
+로컬 함수를 만들고, AttackUp과 SpeedUp을 적용한 후 확인하고, AttackUp을 해제한 후 다시 확인하세요.
 
 **실행 결과**
 
